@@ -9,10 +9,17 @@
 	<ItemGroup>
 		<PackageReference Include="MailKit" Version="4.1.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 	
   <ItemGroup>
     <ProjectReference Include="..\Bridge.Models\Bridge.Models.csproj" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <None Update="JiraService\MockData\KR-66352.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

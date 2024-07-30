@@ -1,0 +1,4077 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "1698494",
+  "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494",
+  "key": "KR-66352",
+  "fields": {
+    "customfield_19201": null,
+    "customfield_18110": "•\tScope: Changes resulting from any clarification, additions, or revisions to the project scope after the initial specifications have been approved\r\n•\tDesign / Approach: Change in technical approach to the project, for instance what platform to leverage. \r\n•\tEngineering: Change in platforming direction, including use of existing / new resources, availability level, license quantities, etc. Any change that arises exclusively because of a change in technology strategy, including misunderstandings of the scope\r\n•\tPlan: Any/all changes to the plan of attack, labor strategy, including delays, estimate changes, milestone changes, since the last published forecast. Changes resulting from improper, incomplete, inadequate estimates for the same scope of work and direction.\r\n•\tOperations: Any/all changes in the operating expectations for the technology in operation.\r\n•\tExternal: Change or failure on the part of an external party, or force majeure\r\n•\tStaffing / Labor: Changes resulting from any staffing issue, including resignations, poor contracting quality, competency issues, etc.\r\n",
+    "customfield_19204": null,
+    "resolution": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/resolution/10000",
+      "id": "10000",
+      "description": "Item Completed",
+      "name": "DONE "
+    },
+    "customfield_19205": null,
+    "customfield_10630": null,
+    "customfield_19206": null,
+    "customfield_10631": null,
+    "customfield_12800": null,
+    "customfield_10621": null,
+    "customfield_10622": null,
+    "customfield_10623": null,
+    "customfield_10624": null,
+    "customfield_10625": null,
+    "customfield_10626": null,
+    "customfield_10627": null,
+    "customfield_10628": null,
+    "customfield_10629": null,
+    "customfield_18100": null,
+    "customfield_18101": null,
+    "lastViewed": "2024-07-30T04:24:56.915-0400",
+    "customfield_18102": null,
+    "customfield_18103": null,
+    "customfield_18108": "M1:\r\nM2:\r\nM3:",
+    "customfield_18109": "Select All That Apply",
+    "customfield_18104": null,
+    "customfield_18105": null,
+    "customfield_18106": null,
+    "customfield_10620": null,
+    "customfield_18107": null,
+    "customfield_10610": null,
+    "customfield_10611": null,
+    "customfield_10612": null,
+    "customfield_10613": null,
+    "customfield_10614": null,
+    "aggregatetimeoriginalestimate": null,
+    "customfield_10615": null,
+    "customfield_10616": null,
+    "customfield_11706": null,
+    "customfield_10617": null,
+    "customfield_10618": null,
+    "customfield_10619": null,
+    "issuelinks": [
+      {
+        "id": "1697434",
+        "self": "https://jira.cxloyalty.com/rest/api/2/issueLink/1697434",
+        "type": {
+          "id": "10001",
+          "name": "Cloners",
+          "inward": "Cloned to",
+          "outward": "Cloned from",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issueLinkType/10001"
+        },
+        "outwardIssue": {
+          "id": "1690462",
+          "key": "KR-65546",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1690462",
+          "fields": {
+            "summary": "CORE UI - Upgraded angular 17 code",
+            "status": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/status/13903",
+              "description": "",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/statuses/generic.png",
+              "name": "Deployed on Prod",
+              "id": "13903",
+              "statusCategory": {
+                "self": "https://jira.cxloyalty.com/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "success",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/priority/3",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/issuetype/13814",
+              "id": "13814",
+              "description": "Card to be used for documentation of release candidates.",
+              "iconUrl": "https://jira.cxloyalty.com/secure/viewavatar?size=xsmall&avatarId=10307&avatarType=issuetype",
+              "name": "Release",
+              "subtask": false,
+              "avatarId": 10307
+            }
+          }
+        }
+      },
+      {
+        "id": "1704499",
+        "self": "https://jira.cxloyalty.com/rest/api/2/issueLink/1704499",
+        "type": {
+          "id": "10001",
+          "name": "Cloners",
+          "inward": "Cloned to",
+          "outward": "Cloned from",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issueLinkType/10001"
+        },
+        "inwardIssue": {
+          "id": "1703582",
+          "key": "KR-66912",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1703582",
+          "fields": {
+            "summary": "CORE UI - July-august release",
+            "status": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/status/13915",
+              "description": "",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/statuses/generic.png",
+              "name": "Deployed on QA",
+              "id": "13915",
+              "statusCategory": {
+                "self": "https://jira.cxloyalty.com/rest/api/2/statuscategory/4",
+                "id": 4,
+                "key": "indeterminate",
+                "colorName": "inprogress",
+                "name": "In Progress"
+              }
+            },
+            "priority": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/priority/3",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/issuetype/13814",
+              "id": "13814",
+              "description": "Card to be used for documentation of release candidates.",
+              "iconUrl": "https://jira.cxloyalty.com/secure/viewavatar?size=xsmall&avatarId=10307&avatarType=issuetype",
+              "name": "Release",
+              "subtask": false,
+              "avatarId": 10307
+            }
+          }
+        }
+      },
+      {
+        "id": "1702390",
+        "self": "https://jira.cxloyalty.com/rest/api/2/issueLink/1702390",
+        "type": {
+          "id": "10912",
+          "name": "Release Candidate",
+          "inward": "Released in",
+          "outward": "Release Candidate",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issueLinkType/10912"
+        },
+        "outwardIssue": {
+          "id": "1697738",
+          "key": "MYT-3720",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1697738",
+          "fields": {
+            "summary": "functional fixes - mytrips",
+            "status": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/status/10001",
+              "description": "",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/statuses/generic.png",
+              "name": "Done",
+              "id": "10001",
+              "statusCategory": {
+                "self": "https://jira.cxloyalty.com/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "success",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/priority/3",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/issuetype/10201",
+              "id": "10201",
+              "description": "The sub-task of the issue",
+              "iconUrl": "https://jira.cxloyalty.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+              "name": "Sub-task",
+              "subtask": true,
+              "avatarId": 10316
+            }
+          }
+        }
+      },
+      {
+        "id": "1699706",
+        "self": "https://jira.cxloyalty.com/rest/api/2/issueLink/1699706",
+        "type": {
+          "id": "10912",
+          "name": "Release Candidate",
+          "inward": "Released in",
+          "outward": "Release Candidate",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issueLinkType/10912"
+        },
+        "outwardIssue": {
+          "id": "1698820",
+          "key": "MYT-3730",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698820",
+          "fields": {
+            "summary": "fix for deeplink issue of itenarary tab in desktop mytrips",
+            "status": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/status/10001",
+              "description": "",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/statuses/generic.png",
+              "name": "Done",
+              "id": "10001",
+              "statusCategory": {
+                "self": "https://jira.cxloyalty.com/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "success",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/priority/3",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/issuetype/10201",
+              "id": "10201",
+              "description": "The sub-task of the issue",
+              "iconUrl": "https://jira.cxloyalty.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+              "name": "Sub-task",
+              "subtask": true,
+              "avatarId": 10316
+            }
+          }
+        }
+      },
+      {
+        "id": "1702389",
+        "self": "https://jira.cxloyalty.com/rest/api/2/issueLink/1702389",
+        "type": {
+          "id": "10912",
+          "name": "Release Candidate",
+          "inward": "Released in",
+          "outward": "Release Candidate",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issueLinkType/10912"
+        },
+        "outwardIssue": {
+          "id": "1701186",
+          "key": "MYT-3765",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1701186",
+          "fields": {
+            "summary": "fix for e2e tests in core-ui repo",
+            "status": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/status/10001",
+              "description": "",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/statuses/generic.png",
+              "name": "Done",
+              "id": "10001",
+              "statusCategory": {
+                "self": "https://jira.cxloyalty.com/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "success",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/priority/3",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/issuetype/10201",
+              "id": "10201",
+              "description": "The sub-task of the issue",
+              "iconUrl": "https://jira.cxloyalty.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+              "name": "Sub-task",
+              "subtask": true,
+              "avatarId": 10316
+            }
+          }
+        }
+      },
+      {
+        "id": "1697362",
+        "self": "https://jira.cxloyalty.com/rest/api/2/issueLink/1697362",
+        "type": {
+          "id": "10912",
+          "name": "Release Candidate",
+          "inward": "Released in",
+          "outward": "Release Candidate",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issueLinkType/10912"
+        },
+        "outwardIssue": {
+          "id": "1696178",
+          "key": "O30D-2310",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1696178",
+          "fields": {
+            "summary": "fix desktop site and desktop home func tests",
+            "status": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/status/10001",
+              "description": "",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/statuses/generic.png",
+              "name": "Done",
+              "id": "10001",
+              "statusCategory": {
+                "self": "https://jira.cxloyalty.com/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "success",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/priority/3",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/issuetype/10201",
+              "id": "10201",
+              "description": "The sub-task of the issue",
+              "iconUrl": "https://jira.cxloyalty.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+              "name": "Sub-task",
+              "subtask": true,
+              "avatarId": 10316
+            }
+          }
+        }
+      },
+      {
+        "id": "1700832",
+        "self": "https://jira.cxloyalty.com/rest/api/2/issueLink/1700832",
+        "type": {
+          "id": "10912",
+          "name": "Release Candidate",
+          "inward": "Released in",
+          "outward": "Release Candidate",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issueLinkType/10912"
+        },
+        "outwardIssue": {
+          "id": "1699233",
+          "key": "O30D-2313",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1699233",
+          "fields": {
+            "summary": "change detection in automation packages",
+            "status": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/status/10001",
+              "description": "",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/statuses/generic.png",
+              "name": "Done",
+              "id": "10001",
+              "statusCategory": {
+                "self": "https://jira.cxloyalty.com/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "success",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/priority/3",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/issuetype/10201",
+              "id": "10201",
+              "description": "The sub-task of the issue",
+              "iconUrl": "https://jira.cxloyalty.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+              "name": "Sub-task",
+              "subtask": true,
+              "avatarId": 10316
+            }
+          }
+        }
+      },
+      {
+        "id": "1701727",
+        "self": "https://jira.cxloyalty.com/rest/api/2/issueLink/1701727",
+        "type": {
+          "id": "10912",
+          "name": "Release Candidate",
+          "inward": "Released in",
+          "outward": "Release Candidate",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issueLinkType/10912"
+        },
+        "outwardIssue": {
+          "id": "1701651",
+          "key": "O30D-2319",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1701651",
+          "fields": {
+            "summary": "cruise test fix in core ui",
+            "status": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/status/10001",
+              "description": "",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/statuses/generic.png",
+              "name": "Done",
+              "id": "10001",
+              "statusCategory": {
+                "self": "https://jira.cxloyalty.com/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "success",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/priority/3",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/issuetype/10201",
+              "id": "10201",
+              "description": "The sub-task of the issue",
+              "iconUrl": "https://jira.cxloyalty.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+              "name": "Sub-task",
+              "subtask": true,
+              "avatarId": 10316
+            }
+          }
+        }
+      },
+      {
+        "id": "1701458",
+        "self": "https://jira.cxloyalty.com/rest/api/2/issueLink/1701458",
+        "type": {
+          "id": "10912",
+          "name": "Release Candidate",
+          "inward": "Released in",
+          "outward": "Release Candidate",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issueLinkType/10912"
+        },
+        "outwardIssue": {
+          "id": "1698850",
+          "key": "SDK-7013",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698850",
+          "fields": {
+            "summary": "Setting consumption in base site",
+            "status": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/status/10001",
+              "description": "",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/statuses/generic.png",
+              "name": "Done",
+              "id": "10001",
+              "statusCategory": {
+                "self": "https://jira.cxloyalty.com/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "success",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/priority/3",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/issuetype/10201",
+              "id": "10201",
+              "description": "The sub-task of the issue",
+              "iconUrl": "https://jira.cxloyalty.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+              "name": "Sub-task",
+              "subtask": true,
+              "avatarId": 10316
+            }
+          }
+        }
+      },
+      {
+        "id": "1700102",
+        "self": "https://jira.cxloyalty.com/rest/api/2/issueLink/1700102",
+        "type": {
+          "id": "10912",
+          "name": "Release Candidate",
+          "inward": "Released in",
+          "outward": "Release Candidate",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issueLinkType/10912"
+        },
+        "outwardIssue": {
+          "id": "1699409",
+          "key": "SDK-7020",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1699409",
+          "fields": {
+            "summary": "setting creation hide_preferences",
+            "status": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/status/10001",
+              "description": "",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/statuses/generic.png",
+              "name": "Done",
+              "id": "10001",
+              "statusCategory": {
+                "self": "https://jira.cxloyalty.com/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "success",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/priority/3",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/issuetype/10201",
+              "id": "10201",
+              "description": "The sub-task of the issue",
+              "iconUrl": "https://jira.cxloyalty.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+              "name": "Sub-task",
+              "subtask": true,
+              "avatarId": 10316
+            }
+          }
+        }
+      },
+      {
+        "id": "1700841",
+        "self": "https://jira.cxloyalty.com/rest/api/2/issueLink/1700841",
+        "type": {
+          "id": "10912",
+          "name": "Release Candidate",
+          "inward": "Released in",
+          "outward": "Release Candidate",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issueLinkType/10912"
+        },
+        "outwardIssue": {
+          "id": "1687429",
+          "key": "O30D-2267",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1687429",
+          "fields": {
+            "summary": "FIS - Mobile -should check user rewards point load or not with culture formate - Test is failing ",
+            "status": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/status/13903",
+              "description": "",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/statuses/generic.png",
+              "name": "Deployed on Prod",
+              "id": "13903",
+              "statusCategory": {
+                "self": "https://jira.cxloyalty.com/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "success",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/priority/2",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/priorities/major.svg",
+              "name": "High",
+              "id": "2"
+            },
+            "issuetype": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/issuetype/10202",
+              "id": "10202",
+              "description": "A problem which impairs or prevents the functions of the product.",
+              "iconUrl": "https://jira.cxloyalty.com/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+              "name": "Bug",
+              "subtask": false,
+              "avatarId": 10303
+            }
+          }
+        }
+      },
+      {
+        "id": "1701914",
+        "self": "https://jira.cxloyalty.com/rest/api/2/issueLink/1701914",
+        "type": {
+          "id": "10912",
+          "name": "Release Candidate",
+          "inward": "Released in",
+          "outward": "Release Candidate",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issueLinkType/10912"
+        },
+        "outwardIssue": {
+          "id": "1690587",
+          "key": "O30D-2282",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1690587",
+          "fields": {
+            "summary": "FIS-Desktop- Tests is failing with error \" expect(received).toBe(expected) // Object.is equality Expected: true Received: false  \"",
+            "status": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/status/13903",
+              "description": "",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/statuses/generic.png",
+              "name": "Deployed on Prod",
+              "id": "13903",
+              "statusCategory": {
+                "self": "https://jira.cxloyalty.com/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "success",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/priority/2",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/priorities/major.svg",
+              "name": "High",
+              "id": "2"
+            },
+            "issuetype": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/issuetype/10202",
+              "id": "10202",
+              "description": "A problem which impairs or prevents the functions of the product.",
+              "iconUrl": "https://jira.cxloyalty.com/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+              "name": "Bug",
+              "subtask": false,
+              "avatarId": 10303
+            }
+          }
+        }
+      },
+      {
+        "id": "1700451",
+        "self": "https://jira.cxloyalty.com/rest/api/2/issueLink/1700451",
+        "type": {
+          "id": "10912",
+          "name": "Release Candidate",
+          "inward": "Released in",
+          "outward": "Release Candidate",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issueLinkType/10912"
+        },
+        "outwardIssue": {
+          "id": "1645593",
+          "key": "O30D-2000",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1645593",
+          "fields": {
+            "summary": "Base - Code smell fixes for Desktop & Mobile Site",
+            "status": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/status/13903",
+              "description": "",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/statuses/generic.png",
+              "name": "Deployed on Prod",
+              "id": "13903",
+              "statusCategory": {
+                "self": "https://jira.cxloyalty.com/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "success",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/priority/3",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/issuetype/10001",
+              "id": "10001",
+              "description": "Created by Jira Software - do not edit or delete. Issue type for a user story.",
+              "iconUrl": "https://jira.cxloyalty.com/secure/viewavatar?size=xsmall&avatarId=10315&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10315
+            }
+          }
+        }
+      },
+      {
+        "id": "1702107",
+        "self": "https://jira.cxloyalty.com/rest/api/2/issueLink/1702107",
+        "type": {
+          "id": "10912",
+          "name": "Release Candidate",
+          "inward": "Released in",
+          "outward": "Release Candidate",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issueLinkType/10912"
+        },
+        "outwardIssue": {
+          "id": "1692983",
+          "key": "O30D-2300",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1692983",
+          "fields": {
+            "summary": "[Angular Upgrade] QA support for Angular upgrade - Fix functional test cases",
+            "status": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/status/13903",
+              "description": "",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/statuses/generic.png",
+              "name": "Deployed on Prod",
+              "id": "13903",
+              "statusCategory": {
+                "self": "https://jira.cxloyalty.com/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "success",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/priority/3",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/issuetype/10001",
+              "id": "10001",
+              "description": "Created by Jira Software - do not edit or delete. Issue type for a user story.",
+              "iconUrl": "https://jira.cxloyalty.com/secure/viewavatar?size=xsmall&avatarId=10315&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10315
+            }
+          }
+        }
+      },
+      {
+        "id": "1697389",
+        "self": "https://jira.cxloyalty.com/rest/api/2/issueLink/1697389",
+        "type": {
+          "id": "10912",
+          "name": "Release Candidate",
+          "inward": "Released in",
+          "outward": "Release Candidate",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issueLinkType/10912"
+        },
+        "outwardIssue": {
+          "id": "1682475",
+          "key": "SDK-6900",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1682475",
+          "fields": {
+            "summary": "[ETA July 25] UI - Air Canada Guest Flow: GuestUserAuthGuard and GuestUserAuthGuardForMicroApp issues",
+            "status": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/status/13903",
+              "description": "",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/statuses/generic.png",
+              "name": "Deployed on Prod",
+              "id": "13903",
+              "statusCategory": {
+                "self": "https://jira.cxloyalty.com/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "success",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/priority/3",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/issuetype/10202",
+              "id": "10202",
+              "description": "A problem which impairs or prevents the functions of the product.",
+              "iconUrl": "https://jira.cxloyalty.com/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+              "name": "Bug",
+              "subtask": false,
+              "avatarId": 10303
+            }
+          }
+        }
+      },
+      {
+        "id": "1702355",
+        "self": "https://jira.cxloyalty.com/rest/api/2/issueLink/1702355",
+        "type": {
+          "id": "10912",
+          "name": "Release Candidate",
+          "inward": "Released in",
+          "outward": "Release Candidate",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issueLinkType/10912"
+        },
+        "outwardIssue": {
+          "id": "1690101",
+          "key": "SDK-6981",
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1690101",
+          "fields": {
+            "summary": "UI - United LHRC Changes - Hide Menu",
+            "status": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/status/13903",
+              "description": "",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/statuses/generic.png",
+              "name": "Deployed on Prod",
+              "id": "13903",
+              "statusCategory": {
+                "self": "https://jira.cxloyalty.com/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "success",
+                "name": "Done"
+              }
+            },
+            "priority": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/priority/3",
+              "iconUrl": "https://jira.cxloyalty.com/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://jira.cxloyalty.com/rest/api/2/issuetype/10001",
+              "id": "10001",
+              "description": "Created by Jira Software - do not edit or delete. Issue type for a user story.",
+              "iconUrl": "https://jira.cxloyalty.com/secure/viewavatar?size=xsmall&avatarId=10315&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10315
+            }
+          }
+        }
+      }
+    ],
+    "customfield_17000": null,
+    "customfield_10600": null,
+    "customfield_10601": null,
+    "customfield_10602": null,
+    "customfield_10603": null,
+    "customfield_10604": null,
+    "customfield_10605": null,
+    "customfield_10606": null,
+    "customfield_10607": null,
+    "customfield_10608": null,
+    "customfield_10609": null,
+    "customfield_20401": null,
+    "subtasks": [],
+    "issuetype": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/issuetype/13814",
+      "id": "13814",
+      "description": "Card to be used for documentation of release candidates.",
+      "iconUrl": "https://jira.cxloyalty.com/secure/viewavatar?size=xsmall&avatarId=10307&avatarType=issuetype",
+      "name": "Release",
+      "subtask": false,
+      "avatarId": 10307
+    },
+    "customfield_11900": null,
+    "customfield_11902": null,
+    "customfield_11901": null,
+    "customfield_21708": null,
+    "customfield_16592": null,
+    "customfield_16591": null,
+    "customfield_16590": null,
+    "customfield_17200": "JPMC",
+    "customfield_18533": null,
+    "timetracking": {},
+    "customfield_10800": null,
+    "customfield_16581": null,
+    "customfield_18520": null,
+    "customfield_18521": null,
+    "customfield_15011": null,
+    "customfield_16101": null,
+    "customfield_16585": null,
+    "customfield_16100": null,
+    "customfield_16584": null,
+    "customfield_16582": null,
+    "customfield_18526": null,
+    "customfield_16103": null,
+    "customfield_16102": 0.0,
+    "customfield_18522": null,
+    "customfield_18523": null,
+    "customfield_18524": null,
+    "customfield_18525": null,
+    "environment": null,
+    "customfield_18519": null,
+    "customfield_10470": null,
+    "customfield_10471": null,
+    "customfield_10472": null,
+    "customfield_10473": null,
+    "customfield_13500": null,
+    "customfield_12411": null,
+    "customfield_10474": null,
+    "customfield_12410": null,
+    "customfield_13502": null,
+    "customfield_12413": null,
+    "customfield_10476": null,
+    "customfield_13501": null,
+    "customfield_12412": "0",
+    "customfield_10477": null,
+    "customfield_10225": null,
+    "customfield_10467": null,
+    "customfield_12404": null,
+    "customfield_10468": null,
+    "customfield_12403": null,
+    "customfield_10226": null,
+    "customfield_10469": null,
+    "customfield_12406": null,
+    "customfield_12405": null,
+    "customfield_12408": null,
+    "customfield_12407": null,
+    "customfield_12409": null,
+    "customfield_21111": null,
+    "customfield_21110": null,
+    "customfield_10460": null,
+    "customfield_10461": null,
+    "customfield_10462": null,
+    "customfield_11310": null,
+    "customfield_10463": null,
+    "customfield_12400": null,
+    "customfield_15910": null,
+    "customfield_10464": null,
+    "customfield_11311": null,
+    "customfield_10465": null,
+    "customfield_12402": null,
+    "customfield_11312": null,
+    "customfield_10466": null,
+    "customfield_12401": null,
+    "customfield_10224": null,
+    "customfield_11303": null,
+    "customfield_12635": null,
+    "customfield_15903": null,
+    "customfield_10457": null,
+    "customfield_12634": null,
+    "customfield_15904": null,
+    "customfield_10458": null,
+    "customfield_12637": null,
+    "customfield_15901": null,
+    "customfield_12636": null,
+    "customfield_11306": null,
+    "customfield_10459": null,
+    "customfield_15902": null,
+    "customfield_11307": null,
+    "customfield_15907": null,
+    "timeestimate": null,
+    "customfield_11308": null,
+    "customfield_15908": null,
+    "customfield_15905": null,
+    "customfield_15906": null,
+    "customfield_15909": null,
+    "customfield_21109": null,
+    "customfield_21108": null,
+    "customfield_21107": null,
+    "customfield_21102": null,
+    "customfield_21101": null,
+    "customfield_21100": null,
+    "customfield_10450": null,
+    "customfield_10451": null,
+    "customfield_12631": null,
+    "customfield_12630": null,
+    "customfield_10453": null,
+    "customfield_10211": null,
+    "customfield_11300": null,
+    "customfield_10212": "1698494",
+    "customfield_12633": null,
+    "customfield_10454": null,
+    "customfield_11301": null,
+    "customfield_12632": null,
+    "customfield_10213": null,
+    "customfield_10455": null,
+    "customfield_11302": null,
+    "customfield_12624": null,
+    "customfield_10445": null,
+    "customfield_12623": null,
+    "customfield_10446": null,
+    "customfield_14801": null,
+    "customfield_12626": null,
+    "customfield_10447": null,
+    "customfield_10448": null,
+    "customfield_10449": null,
+    "customfield_12628": null,
+    "customfield_12627": null,
+    "customfield_12629": null,
+    "customfield_20003": null,
+    "customfield_10440": null,
+    "customfield_10441": null,
+    "customfield_12620": null,
+    "customfield_14800": null,
+    "customfield_10442": null,
+    "customfield_12622": null,
+    "customfield_10443": null,
+    "customfield_10444": null,
+    "customfield_12621": null,
+    "customfield_10434": null,
+    "customfield_12613": null,
+    "customfield_12612": null,
+    "customfield_10435": null,
+    "customfield_12615": null,
+    "customfield_10436": null,
+    "customfield_12614": null,
+    "customfield_10437": null,
+    "customfield_10438": null,
+    "customfield_12617": null,
+    "customfield_10439": null,
+    "customfield_12616": null,
+    "customfield_12619": null,
+    "customfield_19004": null,
+    "customfield_10430": null,
+    "aggregatetimespent": null,
+    "customfield_10431": null,
+    "customfield_10432": null,
+    "customfield_13700": null,
+    "customfield_12611": null,
+    "customfield_10433": null,
+    "customfield_12610": null,
+    "customfield_12602": null,
+    "customfield_10423": null,
+    "customfield_10424": null,
+    "customfield_12601": null,
+    "customfield_10425": null,
+    "customfield_12604": null,
+    "customfield_10426": null,
+    "customfield_10668": "16/Jul/24 05:15 AM",
+    "customfield_12603": null,
+    "customfield_10427": null,
+    "customfield_12606": null,
+    "customfield_10428": null,
+    "customfield_12605": null,
+    "customfield_10429": null,
+    "customfield_12608": null,
+    "customfield_12607": null,
+    "customfield_12609": null,
+    "workratio": -1,
+    "customfield_21316": null,
+    "customfield_21315": null,
+    "customfield_21310": null,
+    "customfield_10420": null,
+    "customfield_10662": null,
+    "customfield_10663": null,
+    "customfield_12600": null,
+    "customfield_10422": null,
+    "customfield_10412": null,
+    "customfield_10413": null,
+    "customfield_11501": null,
+    "customfield_10414": null,
+    "customfield_10415": null,
+    "customfield_21309": null,
+    "customfield_21306": null,
+    "customfield_21305": null,
+    "customfield_21304": null,
+    "customfield_21302": null,
+    "customfield_21300": null,
+    "customfield_10650": null,
+    "customfield_11500": null,
+    "customfield_10410": null,
+    "customfield_10411": null,
+    "customfield_13911": null,
+    "customfield_10401": null,
+    "customfield_13910": null,
+    "customfield_10644": null,
+    "customfield_10402": null,
+    "customfield_13913": null,
+    "customfield_10645": null,
+    "customfield_10403": null,
+    "customfield_10646": null,
+    "customfield_13912": null,
+    "customfield_10404": null,
+    "customfield_10647": null,
+    "customfield_10405": null,
+    "customfield_13915": null,
+    "customfield_10648": null,
+    "customfield_10406": null,
+    "customfield_13914": null,
+    "customfield_10407": null,
+    "customfield_13917": null,
+    "customfield_10408": null,
+    "customfield_13916": null,
+    "customfield_10409": null,
+    "customfield_13918": null,
+    "customfield_10640": null,
+    "customfield_10641": null,
+    "customfield_10400": null,
+    "customfield_10642": null,
+    "customfield_10632": null,
+    "customfield_13900": null,
+    "customfield_10633": null,
+    "customfield_13902": null,
+    "customfield_10634": null,
+    "customfield_13901": null,
+    "customfield_10635": null,
+    "customfield_13904": null,
+    "customfield_10636": null,
+    "customfield_10637": null,
+    "customfield_13903": null,
+    "customfield_10638": null,
+    "customfield_13906": null,
+    "customfield_10639": null,
+    "customfield_13905": null,
+    "customfield_13908": null,
+    "customfield_13907": null,
+    "customfield_13909": null,
+    "customfield_12370": null,
+    "customfield_12130": null,
+    "customfield_12372": null,
+    "customfield_12371": null,
+    "customfield_12132": null,
+    "customfield_12374": null,
+    "customfield_15400": null,
+    "customfield_12131": null,
+    "customfield_12373": null,
+    "customfield_15401": null,
+    "customfield_12134": null,
+    "customfield_12376": null,
+    "customfield_12133": null,
+    "customfield_12375": null,
+    "customfield_12136": null,
+    "customfield_12378": null,
+    "customfield_12135": null,
+    "customfield_12377": null,
+    "customfield_12138": null,
+    "customfield_12137": null,
+    "customfield_12379": null,
+    "customfield_12129": null,
+    "customfield_12128": null,
+    "customfield_12361": null,
+    "customfield_12360": null,
+    "customfield_12121": null,
+    "customfield_12363": null,
+    "customfield_12120": null,
+    "customfield_12362": null,
+    "customfield_18901": null,
+    "customfield_12123": null,
+    "customfield_12365": null,
+    "customfield_12122": null,
+    "customfield_12364": null,
+    "customfield_12125": null,
+    "customfield_12367": null,
+    "customfield_12124": null,
+    "customfield_12366": null,
+    "customfield_12127": null,
+    "customfield_12369": null,
+    "customfield_12126": null,
+    "customfield_12368": null,
+    "labels": [],
+    "customfield_13207": "0.0",
+    "customfield_12118": null,
+    "customfield_16718": null,
+    "customfield_13206": null,
+    "customfield_12359": null,
+    "customfield_12117": null,
+    "customfield_12119": null,
+    "customfield_16715": null,
+    "customfield_12350": null,
+    "customfield_12352": null,
+    "customfield_12110": null,
+    "customfield_16710": null,
+    "customfield_12351": null,
+    "customfield_12112": null,
+    "customfield_13201": null,
+    "customfield_12354": null,
+    "customfield_12111": null,
+    "customfield_13200": null,
+    "customfield_12353": null,
+    "customfield_12114": null,
+    "customfield_13203": null,
+    "customfield_12356": null,
+    "customfield_16714": null,
+    "customfield_13202": null,
+    "customfield_12355": null,
+    "customfield_12113": null,
+    "customfield_16713": null,
+    "customfield_13205": null,
+    "customfield_12358": null,
+    "customfield_12116": null,
+    "customfield_16712": null,
+    "customfield_12115": null,
+    "customfield_13204": null,
+    "customfield_12357": null,
+    "customfield_16711": null,
+    "customfield_12349": null,
+    "customfield_12107": null,
+    "customfield_12106": null,
+    "customfield_12348": null,
+    "customfield_12109": null,
+    "customfield_12108": null,
+    "customfield_16704": null,
+    "customfield_16709": null,
+    "customfield_12341": null,
+    "customfield_12340": null,
+    "customfield_12101": null,
+    "reporter": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/user?username=V804467",
+      "name": "V804467",
+      "key": "JIRAUSER27625",
+      "emailAddress": "Sushant.Patil@tavisca.com",
+      "avatarUrls": {
+        "48x48": "https://jira.cxloyalty.com/secure/useravatar?avatarId=10334",
+        "24x24": "https://jira.cxloyalty.com/secure/useravatar?size=small&avatarId=10334",
+        "16x16": "https://jira.cxloyalty.com/secure/useravatar?size=xsmall&avatarId=10334",
+        "32x32": "https://jira.cxloyalty.com/secure/useravatar?size=medium&avatarId=10334"
+      },
+      "displayName": "Sushant Patil",
+      "active": true,
+      "timeZone": "Asia/Kolkata"
+    },
+    "customfield_12343": null,
+    "customfield_12100": null,
+    "customfield_12342": null,
+    "customfield_12103": null,
+    "customfield_12345": null,
+    "customfield_16703": null,
+    "customfield_12102": null,
+    "customfield_12344": null,
+    "customfield_16702": null,
+    "customfield_12105": null,
+    "customfield_12347": null,
+    "customfield_16701": null,
+    "customfield_12104": null,
+    "customfield_12346": null,
+    "customfield_16700": null,
+    "customfield_12338": null,
+    "customfield_12337": null,
+    "customfield_12339": null,
+    "archivedby": null,
+    "customfield_10392": null,
+    "customfield_12330": null,
+    "customfield_10394": null,
+    "customfield_10395": null,
+    "customfield_12332": null,
+    "customfield_10396": null,
+    "customfield_12331": null,
+    "customfield_10397": null,
+    "customfield_12334": null,
+    "customfield_10398": null,
+    "customfield_12333": null,
+    "customfield_12336": null,
+    "customfield_15600": null,
+    "customfield_10399": null,
+    "customfield_12335": null,
+    "customfield_14506": null,
+    "customfield_12327": null,
+    "customfield_14507": null,
+    "customfield_12326": null,
+    "customfield_14504": null,
+    "customfield_12329": null,
+    "customfield_14505": null,
+    "customfield_12328": null,
+    "watches": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/issue/KR-66352/watchers",
+      "watchCount": 4,
+      "isWatching": false
+    },
+    "customfield_10380": null,
+    "customfield_12321": "0",
+    "customfield_12320": null,
+    "customfield_12323": null,
+    "customfield_14502": null,
+    "customfield_12322": null,
+    "customfield_14503": null,
+    "customfield_10388": null,
+    "customfield_12325": null,
+    "customfield_14500": null,
+    "customfield_12324": null,
+    "customfield_14501": null,
+    "customfield_10379": null,
+    "customfield_12316": null,
+    "customfield_12315": null,
+    "customfield_12318": "0",
+    "customfield_12317": null,
+    "customfield_12319": "0",
+    "updated": "2024-07-30T03:43:10.414-0400",
+    "customfield_10370": null,
+    "timeoriginalestimate": null,
+    "customfield_10371": null,
+    "description": "*Description:* \r\n\r\nThis release addresses changes general bug fixes.\r\n\r\n*Overview of the Release or Issue that we are fixing, Impact, Risks (if any).*\r\n # Added culture keys for info banner\r\n # FTC changes for my-trips\r\n # UI - Profile - Adoption of Email to Text custom email validator\r\n # UI - MyTrips - Adoption of Email to Text custom email validator\r\n\r\n*Same activity, we have to perform at site manager on Stage and Prod env.*\r\n\r\nRisks (if any) - NA\r\n\r\n*Communication plan via email etc*\r\n\r\nAn email notification will be sent.\r\n\r\n*Release Manager / Primary and Secondary Contact:*\r\n\r\nPrimary: [~D643542]\r\n\r\nSecondary:[Sajel Goel|https://jira.cxloyalty.com/secure/ViewProfile.jspa?name=I767421]   [~O773286] \r\n\r\n*Release Downtime? (if any)*\r\n\r\nNo",
+    "customfield_10372": null,
+    "customfield_12310": null,
+    "customfield_10373": null,
+    "customfield_10374": null,
+    "customfield_12312": null,
+    "customfield_10375": null,
+    "customfield_13401": null,
+    "customfield_12311": null,
+    "customfield_10376": null,
+    "customfield_12314": null,
+    "customfield_10377": null,
+    "customfield_10378": null,
+    "customfield_12313": null,
+    "customfield_12305": null,
+    "customfield_10368": null,
+    "customfield_16905": null,
+    "customfield_12304": null,
+    "customfield_10369": null,
+    "customfield_16904": null,
+    "customfield_12307": null,
+    "customfield_16903": null,
+    "customfield_12306": null,
+    "customfield_16902": null,
+    "customfield_12309": null,
+    "customfield_12308": null,
+    "customfield_10360": null,
+    "customfield_10361": null,
+    "customfield_10362": null,
+    "customfield_10363": null,
+    "customfield_11210": null,
+    "customfield_10364": null,
+    "customfield_12301": null,
+    "customfield_16901": null,
+    "customfield_10365": null,
+    "customfield_12300": null,
+    "customfield_16900": null,
+    "customfield_10124": null,
+    "customfield_10366": null,
+    "customfield_12303": null,
+    "customfield_10367": null,
+    "customfield_12302": null,
+    "customfield_10599": null,
+    "customfield_10357": null,
+    "customfield_11204": null,
+    "customfield_15804": null,
+    "customfield_10358": null,
+    "customfield_11205": null,
+    "customfield_15805": null,
+    "customfield_10359": null,
+    "customfield_11206": null,
+    "customfield_15802": null,
+    "customfield_11207": null,
+    "customfield_15803": null,
+    "customfield_11208": null,
+    "customfield_11209": null,
+    "customfield_16570": [
+      {
+        "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/57077",
+        "value": "High",
+        "id": "57077",
+        "disabled": false
+      }
+    ],
+    "customfield_18510": null,
+    "customfield_15000": null,
+    "customfield_16574": null,
+    "customfield_16573": null,
+    "customfield_16572": null,
+    "customfield_16571": "2024-07-26T03:26:00.000-0400",
+    "customfield_16578": null,
+    "customfield_18515": null,
+    "customfield_16577": null,
+    "customfield_18516": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/62404",
+      "value": "NOT STARTED",
+      "id": "62404",
+      "disabled": false
+    },
+    "customfield_16576": null,
+    "customfield_15003": null,
+    "fixVersions": [],
+    "customfield_16575": null,
+    "customfield_18518": null,
+    "customfield_18511": null,
+    "customfield_19600": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/user?username=D643542",
+      "name": "D643542",
+      "key": "JIRAUSER34203",
+      "emailAddress": "Akshay.Rajput@tavisca.com",
+      "avatarUrls": {
+        "48x48": "https://www.gravatar.com/avatar/a5725adf3e17e9ee4b40cea71a77c61d?d=mm&s=48",
+        "24x24": "https://www.gravatar.com/avatar/a5725adf3e17e9ee4b40cea71a77c61d?d=mm&s=24",
+        "16x16": "https://www.gravatar.com/avatar/a5725adf3e17e9ee4b40cea71a77c61d?d=mm&s=16",
+        "32x32": "https://www.gravatar.com/avatar/a5725adf3e17e9ee4b40cea71a77c61d?d=mm&s=32"
+      },
+      "displayName": "Akshay Rajput",
+      "active": true,
+      "timeZone": "America/New_York"
+    },
+    "customfield_15009": null,
+    "customfield_18512": null,
+    "customfield_19601": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/user?username=F700144",
+      "name": "F700144",
+      "key": "JIRAUSER23708",
+      "emailAddress": "Adarsh.Nahar@tavisca.com",
+      "avatarUrls": {
+        "48x48": "https://jira.cxloyalty.com/secure/useravatar?ownerId=JIRAUSER23708&avatarId=21630",
+        "24x24": "https://jira.cxloyalty.com/secure/useravatar?size=small&ownerId=JIRAUSER23708&avatarId=21630",
+        "16x16": "https://jira.cxloyalty.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER23708&avatarId=21630",
+        "32x32": "https://jira.cxloyalty.com/secure/useravatar?size=medium&ownerId=JIRAUSER23708&avatarId=21630"
+      },
+      "displayName": "Adarsh Nahar",
+      "active": true,
+      "timeZone": "America/New_York"
+    },
+    "customfield_18513": null,
+    "customfield_16579": null,
+    "customfield_18514": null,
+    "customfield_18508": null,
+    "customfield_18509": null,
+    "customfield_16563": null,
+    "customfield_16321": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/56147",
+      "value": "No",
+      "id": "56147",
+      "disabled": false
+    },
+    "customfield_16562": null,
+    "customfield_16320": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/56144",
+      "value": "No",
+      "id": "56144",
+      "disabled": false
+    },
+    "customfield_16561": null,
+    "customfield_16560": null,
+    "customfield_16325": null,
+    "customfield_16567": null,
+    "customfield_18504": null,
+    "customfield_16324": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/56153",
+      "value": "No",
+      "id": "56153",
+      "disabled": false
+    },
+    "customfield_16566": null,
+    "customfield_18505": null,
+    "customfield_16323": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/56151",
+      "value": "No",
+      "id": "56151",
+      "disabled": false
+    },
+    "customfield_16565": null,
+    "customfield_18506": null,
+    "customfield_16322": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/56149",
+      "value": "No",
+      "id": "56149",
+      "disabled": false
+    },
+    "customfield_18507": null,
+    "priority": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/priority/3",
+      "iconUrl": "https://jira.cxloyalty.com/images/icons/priorities/medium.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "customfield_18500": null,
+    "customfield_16328": null,
+    "customfield_18501": null,
+    "customfield_16569": null,
+    "customfield_16327": null,
+    "customfield_18502": null,
+    "customfield_16326": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/57075",
+      "value": "Yes",
+      "id": "57075",
+      "disabled": false
+    },
+    "customfield_16568": null,
+    "customfield_18503": null,
+    "customfield_21900": null,
+    "customfield_16552": null,
+    "customfield_16310": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/56121",
+      "value": "No",
+      "id": "56121",
+      "disabled": false
+    },
+    "customfield_16550": null,
+    "customfield_16556": null,
+    "customfield_16314": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/56130",
+      "value": "No",
+      "id": "56130",
+      "disabled": false
+    },
+    "customfield_17403": null,
+    "customfield_16555": null,
+    "customfield_16313": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/56128",
+      "value": "No",
+      "id": "56128",
+      "disabled": false
+    },
+    "customfield_17402": null,
+    "customfield_16554": null,
+    "customfield_16312": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/56125",
+      "value": "No",
+      "id": "56125",
+      "disabled": false
+    },
+    "customfield_17401": null,
+    "customfield_16311": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/56123",
+      "value": "No",
+      "id": "56123",
+      "disabled": false
+    },
+    "customfield_16553": null,
+    "customfield_17400": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3472532",
+      "id": "3472532",
+      "author": {
+        "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+        "name": "SVC_SiteManager",
+        "key": "JIRAUSER32208",
+        "emailAddress": "SVC_SiteManager@noemail.com",
+        "avatarUrls": {
+          "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+          "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+          "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+          "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+        },
+        "displayName": "SVC_SiteManager",
+        "active": true,
+        "timeZone": "America/New_York"
+      },
+      "body": "functional - test executed for mobile on prod environment",
+      "updateAuthor": {
+        "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+        "name": "SVC_SiteManager",
+        "key": "JIRAUSER32208",
+        "emailAddress": "SVC_SiteManager@noemail.com",
+        "avatarUrls": {
+          "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+          "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+          "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+          "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+        },
+        "displayName": "SVC_SiteManager",
+        "active": true,
+        "timeZone": "America/New_York"
+      },
+      "created": "2024-07-30T03:43:10.414-0400",
+      "updated": "2024-07-30T03:43:10.414-0400"
+    },
+    "customfield_16559": null,
+    "customfield_16558": null,
+    "customfield_16316": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/56136",
+      "value": "No",
+      "id": "56136",
+      "disabled": false
+    },
+    "customfield_16315": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/56133",
+      "value": "No",
+      "id": "56133",
+      "disabled": false
+    },
+    "customfield_16557": null,
+    "customfield_16308": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/56117",
+      "value": "No",
+      "id": "56117",
+      "disabled": false
+    },
+    "customfield_16541": null,
+    "customfield_15210": null,
+    "customfield_16540": null,
+    "customfield_15213": null,
+    "customfield_15214": null,
+    "customfield_16302": null,
+    "customfield_16544": null,
+    "customfield_15211": null,
+    "customfield_16543": null,
+    "customfield_15212": null,
+    "customfield_16542": null,
+    "customfield_16300": null,
+    "customfield_16307": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/56114",
+      "value": "Functional",
+      "id": "56114",
+      "disabled": false
+    },
+    "customfield_16549": null,
+    "customfield_16306": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/56108",
+      "value": "Functional",
+      "id": "56108",
+      "disabled": false
+    },
+    "customfield_15215": null,
+    "customfield_16305": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/56104",
+      "value": "Dev",
+      "id": "56104",
+      "disabled": false
+    },
+    "customfield_16304": [
+      {
+        "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/56100",
+        "value": "Dev",
+        "id": "56100",
+        "disabled": false
+      }
+    ],
+    "customfield_15208": null,
+    "customfield_15209": null,
+    "customfield_16539": null,
+    "customfield_16530": null,
+    "customfield_16534": null,
+    "customfield_16533": null,
+    "customfield_16532": null,
+    "customfield_15206": null,
+    "customfield_16538": null,
+    "customfield_15207": null,
+    "customfield_16537": null,
+    "customfield_16536": null,
+    "customfield_16535": null,
+    "customfield_16529": null,
+    "customfield_16528": null,
+    "created": "2024-07-16T05:15:31.442-0400",
+    "customfield_14102": null,
+    "customfield_16523": null,
+    "customfield_14103": null,
+    "customfield_16522": null,
+    "customfield_16521": null,
+    "customfield_16520": null,
+    "customfield_16527": null,
+    "customfield_16526": null,
+    "customfield_14104": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/53200",
+      "value": "Jira Support",
+      "id": "53200",
+      "disabled": false
+    },
+    "customfield_16525": null,
+    "customfield_16524": null,
+    "customfield_16519": null,
+    "customfield_16518": "2024-03-08",
+    "customfield_16517": null,
+    "customfield_17606": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/58404",
+      "value": "QA",
+      "id": "58404",
+      "disabled": false
+    },
+    "customfield_12390": null,
+    "customfield_12392": null,
+    "customfield_12150": null,
+    "customfield_12391": null,
+    "customfield_12152": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/49967",
+      "value": "No",
+      "id": "49967",
+      "disabled": false
+    },
+    "customfield_12394": null,
+    "customfield_12151": null,
+    "customfield_12393": null,
+    "customfield_12396": null,
+    "customfield_13001": null,
+    "customfield_16512": null,
+    "customfield_17601": null,
+    "customfield_13000": null,
+    "customfield_12395": null,
+    "customfield_12153": "0.0",
+    "customfield_16511": null,
+    "customfield_17600": null,
+    "customfield_12398": null,
+    "customfield_16510": null,
+    "customfield_12397": null,
+    "customfield_16516": null,
+    "customfield_17605": [
+      {
+        "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/58400",
+        "value": "QA",
+        "id": "58400",
+        "disabled": false
+      }
+    ],
+    "customfield_12399": null,
+    "customfield_16515": null,
+    "customfield_17604": null,
+    "customfield_16514": null,
+    "customfield_17603": null,
+    "customfield_16513": null,
+    "customfield_17602": null,
+    "customfield_16509": null,
+    "customfield_16508": [
+      {
+        "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/56555",
+        "value": "None",
+        "id": "56555",
+        "disabled": false
+      }
+    ],
+    "customfield_16507": null,
+    "customfield_16506": null,
+    "attachment": [],
+    "customfield_12381": null,
+    "customfield_12380": null,
+    "customfield_12383": null,
+    "customfield_12141": null,
+    "customfield_12382": null,
+    "customfield_12140": null,
+    "customfield_12385": null,
+    "customfield_12143": null,
+    "customfield_16501": null,
+    "customfield_12384": null,
+    "customfield_12142": null,
+    "customfield_16500": null,
+    "customfield_12387": null,
+    "customfield_12145": null,
+    "customfield_12144": null,
+    "customfield_12386": null,
+    "customfield_12147": null,
+    "customfield_12389": null,
+    "customfield_16505": null,
+    "customfield_12146": null,
+    "customfield_12388": null,
+    "customfield_12149": null,
+    "customfield_16503": null,
+    "customfield_12148": null,
+    "customfield_16502": null,
+    "customfield_12139": null,
+    "customfield_10500": null,
+    "customfield_10501": null,
+    "customfield_10502": null,
+    "customfield_10503": null,
+    "customfield_10504": null,
+    "customfield_10505": null,
+    "customfield_10506": null,
+    "customfield_10507": null,
+    "customfield_18222": "tab-visability",
+    "assignee": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/user?username=D643542",
+      "name": "D643542",
+      "key": "JIRAUSER34203",
+      "emailAddress": "Akshay.Rajput@tavisca.com",
+      "avatarUrls": {
+        "48x48": "https://www.gravatar.com/avatar/a5725adf3e17e9ee4b40cea71a77c61d?d=mm&s=48",
+        "24x24": "https://www.gravatar.com/avatar/a5725adf3e17e9ee4b40cea71a77c61d?d=mm&s=24",
+        "16x16": "https://www.gravatar.com/avatar/a5725adf3e17e9ee4b40cea71a77c61d?d=mm&s=16",
+        "32x32": "https://www.gravatar.com/avatar/a5725adf3e17e9ee4b40cea71a77c61d?d=mm&s=32"
+      },
+      "displayName": "Akshay Rajput",
+      "active": true,
+      "timeZone": "America/New_York"
+    },
+    "customfield_18212": null,
+    "customfield_18213": null,
+    "customfield_18218": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/60027",
+      "value": "Not Applicable",
+      "id": "60027",
+      "disabled": false
+    },
+    "customfield_18219": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/60024",
+      "value": "Not Applicable",
+      "id": "60024",
+      "disabled": false
+    },
+    "customfield_18214": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/60018",
+      "value": "No",
+      "id": "60018",
+      "disabled": false
+    },
+    "customfield_19303": null,
+    "customfield_18215": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/60021",
+      "value": "Not Applicable",
+      "id": "60021",
+      "disabled": false
+    },
+    "customfield_19304": null,
+    "customfield_18216": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/60030",
+      "value": "Not Applicable",
+      "id": "60030",
+      "disabled": false
+    },
+    "customfield_19305": null,
+    "customfield_12900": null,
+    "customfield_18200": null,
+    "customfield_11802": null,
+    "customfield_11804": null,
+    "votes": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/issue/KR-66352/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    },
+    "customfield_17101": null,
+    "customfield_17100": null,
+    "customfield_10700": null,
+    "customfield_20500": null,
+    "customfield_16002": null,
+    "customfield_16000": null,
+    "customfield_16003": null,
+    "customfield_15140": null,
+    "customfield_19500": null,
+    "customfield_15141": null,
+    "customfield_18400": null,
+    "customfield_15132": null,
+    "customfield_15133": null,
+    "customfield_15130": null,
+    "customfield_15131": null,
+    "customfield_15136": null,
+    "customfield_15137": null,
+    "customfield_15134": null,
+    "customfield_15135": null,
+    "customfield_15138": null,
+    "customfield_15139": null,
+    "duedate": null,
+    "customfield_21801": null,
+    "customfield_21800": null,
+    "customfield_21002": null,
+    "customfield_21001": null,
+    "customfield_10590": null,
+    "customfield_10591": null,
+    "customfield_10350": null,
+    "customfield_10592": null,
+    "customfield_10351": null,
+    "customfield_10593": null,
+    "customfield_10594": null,
+    "customfield_11200": null,
+    "customfield_10353": null,
+    "customfield_10595": null,
+    "customfield_15800": null,
+    "customfield_10354": null,
+    "customfield_10596": null,
+    "customfield_15801": null,
+    "customfield_11202": null,
+    "customfield_10355": null,
+    "customfield_10597": null,
+    "customfield_10598": null,
+    "customfield_11203": null,
+    "customfield_10356": null,
+    "customfield_10588": null,
+    "customfield_10346": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/10543",
+      "value": "No",
+      "id": "10543",
+      "disabled": false
+    },
+    "customfield_10104": null,
+    "customfield_10589": null,
+    "customfield_10105": null,
+    "customfield_10348": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/10544",
+      "value": "Molly Updates",
+      "id": "10544",
+      "disabled": false
+    },
+    "customfield_10106": null,
+    "customfield_10349": null,
+    "customfield_20149": null,
+    "customfield_20146": null,
+    "customfield_20143": null,
+    "customfield_10580": null,
+    "customfield_10582": null,
+    "customfield_10583": null,
+    "customfield_14700": "{summaryBean=com.atlassian.jira.plugin.devstatus.rest.SummaryBean@a59b261[summary={pullrequest=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@466f7725[overall=PullRequestOverallBean{stateCount=0, state='OPEN', details=PullRequestOverallDetails{openCount=0, mergedCount=0, declinedCount=0}},byInstanceType={}], build=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@644d6c1c[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BuildOverallBean@59a6e9ef[failedBuildCount=0,successfulBuildCount=0,unknownBuildCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], review=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@d568664[overall=com.atlassian.jira.plugin.devstatus.summary.beans.ReviewsOverallBean@2ef0f211[stateCount=0,state=<null>,dueDate=<null>,overDue=false,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], deployment-environment=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@21d2465f[overall=com.atlassian.jira.plugin.devstatus.summary.beans.DeploymentOverallBean@4f552a1b[topEnvironments=[],showProjects=false,successfulCount=0,count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}], repository=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@7689f033[overall=com.atlassian.jira.plugin.devstatus.summary.beans.CommitOverallBean@5fc0e489[count=1,lastUpdated=2024-07-26T03:26:19.000-0400,lastUpdatedTimestamp=2024-07-26T03:26:19.000-04:00],byInstanceType={github=com.atlassian.jira.plugin.devstatus.summary.beans.ObjectByInstanceTypeBean@6c13b190[count=1,name=GitHub]}], branch=com.atlassian.jira.plugin.devstatus.rest.SummaryItemBean@a704bfb[overall=com.atlassian.jira.plugin.devstatus.summary.beans.BranchOverallBean@33412aee[count=0,lastUpdated=<null>,lastUpdatedTimestamp=<null>],byInstanceType={}]},errors=[],configErrors=[]], devSummaryJson={\"cachedValue\":{\"errors\":[],\"configErrors\":[],\"summary\":{\"pullrequest\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"stateCount\":0,\"state\":\"OPEN\",\"details\":{\"openCount\":0,\"mergedCount\":0,\"declinedCount\":0,\"total\":0},\"open\":true},\"byInstanceType\":{}},\"build\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"failedBuildCount\":0,\"successfulBuildCount\":0,\"unknownBuildCount\":0},\"byInstanceType\":{}},\"review\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"stateCount\":0,\"state\":null,\"dueDate\":null,\"overDue\":false,\"completed\":false},\"byInstanceType\":{}},\"deployment-environment\":{\"overall\":{\"count\":0,\"lastUpdated\":null,\"topEnvironments\":[],\"showProjects\":false,\"successfulCount\":0},\"byInstanceType\":{}},\"repository\":{\"overall\":{\"count\":1,\"lastUpdated\":\"2024-07-26T03:26:19.000-0400\"},\"byInstanceType\":{\"github\":{\"count\":1,\"name\":\"GitHub\"}}},\"branch\":{\"overall\":{\"count\":0,\"lastUpdated\":null},\"byInstanceType\":{}}}},\"isStale\":false}}",
+    "customfield_10584": null,
+    "customfield_10585": null,
+    "customfield_10586": null,
+    "customfield_10587": null,
+    "customfield_10345": null,
+    "customfield_10577": null,
+    "customfield_10578": null,
+    "customfield_10336": null,
+    "customfield_13844": null,
+    "customfield_10579": null,
+    "customfield_10337": null,
+    "customfield_10338": 7.62759932E8,
+    "customfield_10339": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/user?username=E902224",
+      "name": "E902224",
+      "key": "JIRAUSER26522",
+      "emailAddress": "Dipali.Chougule@tavisca.com",
+      "avatarUrls": {
+        "48x48": "https://jira.cxloyalty.com/secure/useravatar?ownerId=JIRAUSER26522&avatarId=23414",
+        "24x24": "https://jira.cxloyalty.com/secure/useravatar?size=small&ownerId=JIRAUSER26522&avatarId=23414",
+        "16x16": "https://jira.cxloyalty.com/secure/useravatar?size=xsmall&ownerId=JIRAUSER26522&avatarId=23414",
+        "32x32": "https://jira.cxloyalty.com/secure/useravatar?size=medium&ownerId=JIRAUSER26522&avatarId=23414"
+      },
+      "displayName": "Dipali Chougule",
+      "active": true,
+      "timeZone": "Asia/Kolkata"
+    },
+    "status": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/status/13903",
+      "description": "",
+      "iconUrl": "https://jira.cxloyalty.com/images/icons/statuses/generic.png",
+      "name": "Deployed on Prod",
+      "id": "13903",
+      "statusCategory": {
+        "self": "https://jira.cxloyalty.com/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "success",
+        "name": "Done"
+      }
+    },
+    "customfield_10570": null,
+    "customfield_10571": null,
+    "customfield_10572": null,
+    "customfield_13841": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/52766",
+      "value": "App Dev - GM",
+      "id": "52766",
+      "disabled": false
+    },
+    "customfield_10573": null,
+    "customfield_13840": null,
+    "customfield_10574": null,
+    "customfield_10575": null,
+    "customfield_13843": null,
+    "customfield_10333": null,
+    "customfield_10334": null,
+    "customfield_13600": null,
+    "customfield_10576": null,
+    "customfield_13842": null,
+    "archiveddate": null,
+    "customfield_10566": null,
+    "customfield_13834": null,
+    "customfield_12503": null,
+    "customfield_10567": null,
+    "customfield_13833": null,
+    "customfield_12502": null,
+    "customfield_10325": null,
+    "customfield_10568": null,
+    "customfield_13836": null,
+    "customfield_10326": null,
+    "customfield_12505": null,
+    "customfield_12504": null,
+    "customfield_13835": null,
+    "customfield_10569": null,
+    "customfield_12507": null,
+    "customfield_13838": null,
+    "aggregatetimeestimate": null,
+    "customfield_13837": null,
+    "customfield_13839": null,
+    "creator": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/user?username=D643542",
+      "name": "D643542",
+      "key": "JIRAUSER34203",
+      "emailAddress": "Akshay.Rajput@tavisca.com",
+      "avatarUrls": {
+        "48x48": "https://www.gravatar.com/avatar/a5725adf3e17e9ee4b40cea71a77c61d?d=mm&s=48",
+        "24x24": "https://www.gravatar.com/avatar/a5725adf3e17e9ee4b40cea71a77c61d?d=mm&s=24",
+        "16x16": "https://www.gravatar.com/avatar/a5725adf3e17e9ee4b40cea71a77c61d?d=mm&s=16",
+        "32x32": "https://www.gravatar.com/avatar/a5725adf3e17e9ee4b40cea71a77c61d?d=mm&s=32"
+      },
+      "displayName": "Akshay Rajput",
+      "active": true,
+      "timeZone": "America/New_York"
+    },
+    "customfield_10560": null,
+    "customfield_10561": null,
+    "customfield_13830": null,
+    "customfield_10562": null,
+    "customfield_10563": null,
+    "customfield_12501": null,
+    "customfield_10322": null,
+    "customfield_13832": null,
+    "customfield_10564": null,
+    "customfield_12500": null,
+    "customfield_13831": null,
+    "customfield_13823": null,
+    "customfield_10556": null,
+    "customfield_10314": null,
+    "customfield_13822": null,
+    "customfield_13825": null,
+    "customfield_10557": null,
+    "customfield_13824": null,
+    "customfield_13827": null,
+    "customfield_13826": null,
+    "customfield_10319": null,
+    "customfield_13829": null,
+    "customfield_13828": null,
+    "timespent": null,
+    "customfield_10310": "Abhijit Managoli",
+    "customfield_10311": null,
+    "customfield_13821": null,
+    "customfield_10312": null,
+    "customfield_13820": null,
+    "customfield_10302": "India",
+    "customfield_13812": null,
+    "customfield_10303": "APPLICATIONS DEVELOPMENT - TRAVEL",
+    "customfield_13811": null,
+    "customfield_10304": "391365",
+    "customfield_14900": null,
+    "customfield_13814": null,
+    "customfield_10305": null,
+    "customfield_13813": null,
+    "customfield_10306": "Employee",
+    "customfield_13816": null,
+    "customfield_10307": null,
+    "customfield_13815": null,
+    "customfield_13818": null,
+    "customfield_10308": null,
+    "customfield_10309": "WeWork Raheja, Kalyani Nagar",
+    "customfield_13817": null,
+    "customfield_13819": null,
+    "customfield_10300": "JPMORGAN SERVICES INDIA PRIVATE LTD (PUNE UNIT)",
+    "customfield_13810": null,
+    "customfield_10301": null,
+    "customfield_13801": null,
+    "customfield_13800": null,
+    "customfield_13803": null,
+    "customfield_13802": null,
+    "customfield_13805": null,
+    "customfield_13804": null,
+    "customfield_13807": null,
+    "customfield_13806": null,
+    "customfield_13809": null,
+    "customfield_13808": null,
+    "customfield_12701": null,
+    "customfield_12700": null,
+    "customfield_12703": null,
+    "customfield_12702": null,
+    "customfield_18001": null,
+    "customfield_18002": null,
+    "customfield_18000": null,
+    "customfield_21402": null,
+    "customfield_12251": null,
+    "customfield_12250": null,
+    "customfield_13100": null,
+    "customfield_12253": null,
+    "customfield_12011": null,
+    "customfield_16611": null,
+    "customfield_15521": null,
+    "customfield_17700": null,
+    "customfield_12252": "APPLICATIONS DEVELOPMENT - TRAVEL",
+    "customfield_16610": null,
+    "customfield_12010": null,
+    "customfield_13102": null,
+    "customfield_12255": null,
+    "customfield_12013": null,
+    "customfield_13101": null,
+    "customfield_12254": 1.0,
+    "customfield_15520": null,
+    "customfield_12257": null,
+    "customfield_12015": null,
+    "customfield_16615": null,
+    "customfield_12256": null,
+    "customfield_12014": null,
+    "customfield_17703": null,
+    "customfield_12259": null,
+    "customfield_16613": null,
+    "customfield_17702": null,
+    "customfield_12258": null,
+    "customfield_12016": null,
+    "customfield_16612": null,
+    "customfield_17701": null,
+    "customfield_12008": null,
+    "customfield_15518": null,
+    "customfield_12249": null,
+    "customfield_12007": null,
+    "customfield_15519": null,
+    "customfield_15516": null,
+    "customfield_12009": null,
+    "customfield_15517": null,
+    "customfield_16609": null,
+    "customfield_12240": null,
+    "customfield_12242": null,
+    "customfield_12000": null,
+    "customfield_16600": null,
+    "customfield_15510": null,
+    "customfield_12241": null,
+    "customfield_15511": null,
+    "customfield_12244": null,
+    "customfield_12243": null,
+    "customfield_12004": null,
+    "customfield_12246": null,
+    "customfield_15514": null,
+    "customfield_12245": null,
+    "customfield_12003": null,
+    "customfield_15515": null,
+    "customfield_12248": null,
+    "customfield_12006": null,
+    "customfield_15512": null,
+    "customfield_12247": null,
+    "customfield_12005": null,
+    "customfield_16601": null,
+    "customfield_15513": null,
+    "customfield_12239": null,
+    "customfield_15507": null,
+    "customfield_12238": null,
+    "customfield_15508": null,
+    "customfield_15505": null,
+    "customfield_15506": null,
+    "customfield_15509": null,
+    "components": [
+      {
+        "self": "https://jira.cxloyalty.com/rest/api/2/component/16643",
+        "id": "16643",
+        "name": "ORXe3",
+        "description": "Component for orxe3 platform"
+      }
+    ],
+    "customfield_12231": null,
+    "customfield_15741": null,
+    "customfield_12230": null,
+    "customfield_15500": null,
+    "customfield_15742": null,
+    "customfield_12233": null,
+    "customfield_12232": null,
+    "customfield_12235": null,
+    "customfield_15503": null,
+    "customfield_12234": null,
+    "customfield_15504": null,
+    "customfield_12237": null,
+    "customfield_15501": null,
+    "customfield_15743": null,
+    "customfield_12236": null,
+    "customfield_15502": null,
+    "customfield_12228": null,
+    "customfield_15738": null,
+    "customfield_12227": null,
+    "customfield_15739": null,
+    "customfield_15736": null,
+    "customfield_12229": null,
+    "customfield_15737": null,
+    "customfield_12220": null,
+    "customfield_15730": null,
+    "customfield_16820": null,
+    "customfield_14400": null,
+    "customfield_15731": null,
+    "customfield_12222": null,
+    "customfield_12221": null,
+    "customfield_12224": null,
+    "customfield_15734": null,
+    "customfield_12223": null,
+    "customfield_15735": null,
+    "customfield_12226": null,
+    "customfield_15732": null,
+    "customfield_12225": null,
+    "customfield_15733": null,
+    "customfield_12217": null,
+    "customfield_15727": null,
+    "customfield_16817": null,
+    "customfield_12216": null,
+    "customfield_15728": null,
+    "customfield_16816": null,
+    "customfield_12219": null,
+    "customfield_15725": null,
+    "customfield_16815": null,
+    "customfield_12218": null,
+    "customfield_15726": null,
+    "customfield_16814": null,
+    "customfield_15729": null,
+    "customfield_16819": null,
+    "customfield_16818": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_12451": null,
+    "customfield_12450": null,
+    "customfield_15720": null,
+    "project": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/project/21549",
+      "id": "21549",
+      "key": "KR",
+      "name": "Kenobi Releases",
+      "projectTypeKey": "software",
+      "avatarUrls": {
+        "48x48": "https://jira.cxloyalty.com/secure/projectavatar?avatarId=10324",
+        "24x24": "https://jira.cxloyalty.com/secure/projectavatar?size=small&avatarId=10324",
+        "16x16": "https://jira.cxloyalty.com/secure/projectavatar?size=xsmall&avatarId=10324",
+        "32x32": "https://jira.cxloyalty.com/secure/projectavatar?size=medium&avatarId=10324"
+      },
+      "projectCategory": {
+        "self": "https://jira.cxloyalty.com/rest/api/2/projectCategory/10102",
+        "id": "10102",
+        "description": "Collection of Issues that are operational requests ",
+        "name": "Operational"
+      }
+    },
+    "customfield_12453": null,
+    "customfield_12211": null,
+    "customfield_13300": null,
+    "customfield_12210": null,
+    "customfield_12452": null,
+    "customfield_12213": null,
+    "customfield_15723": null,
+    "customfield_16813": null,
+    "customfield_12212": null,
+    "customfield_15724": null,
+    "customfield_12215": null,
+    "customfield_15721": null,
+    "customfield_17900": null,
+    "customfield_12214": null,
+    "customfield_15722": null,
+    "customfield_12206": null,
+    "customfield_12448": null,
+    "customfield_15716": null,
+    "customfield_12447": null,
+    "customfield_15717": null,
+    "customfield_12208": null,
+    "customfield_15714": null,
+    "customfield_12449": null,
+    "customfield_12207": null,
+    "customfield_15715": null,
+    "customfield_12209": null,
+    "customfield_15718": null,
+    "resolutiondate": "2024-07-25T01:08:11.374-0400",
+    "customfield_15719": null,
+    "customfield_12440": null,
+    "customfield_12442": null,
+    "customfield_12200": null,
+    "customfield_12441": null,
+    "customfield_12444": null,
+    "customfield_12202": null,
+    "customfield_15712": null,
+    "customfield_12443": null,
+    "customfield_12201": null,
+    "customfield_15713": null,
+    "customfield_12446": null,
+    "customfield_12204": null,
+    "customfield_15710": null,
+    "customfield_12203": null,
+    "customfield_12445": null,
+    "customfield_15711": null,
+    "customfield_15705": null,
+    "customfield_15706": null,
+    "customfield_12439": null,
+    "customfield_15703": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/55407",
+      "value": "2019",
+      "id": "55407",
+      "disabled": false
+    },
+    "customfield_12438": null,
+    "customfield_15704": null,
+    "customfield_15709": null,
+    "customfield_15707": null,
+    "customfield_15708": null,
+    "customfield_10490": null,
+    "customfield_10492": null,
+    "customfield_10493": null,
+    "customfield_15940": null,
+    "customfield_10494": null,
+    "customfield_12431": null,
+    "customfield_10495": null,
+    "customfield_12430": null,
+    "customfield_10496": null,
+    "customfield_15701": null,
+    "customfield_15943": null,
+    "customfield_10497": null,
+    "customfield_11102": null,
+    "customfield_12432": null,
+    "customfield_15702": null,
+    "customfield_15944": null,
+    "customfield_12435": null,
+    "customfield_10498": null,
+    "customfield_15941": null,
+    "customfield_10499": null,
+    "customfield_12434": null,
+    "customfield_15700": null,
+    "customfield_15942": null,
+    "customfield_10489": null,
+    "customfield_10005": "2|i3mnyk:",
+    "customfield_14605": null,
+    "customfield_15936": null,
+    "customfield_10006": null,
+    "customfield_12425": null,
+    "customfield_14606": null,
+    "customfield_15937": null,
+    "customfield_12428": null,
+    "customfield_14603": null,
+    "customfield_15934": null,
+    "customfield_12427": null,
+    "customfield_14604": null,
+    "customfield_15935": null,
+    "customfield_12429": null,
+    "customfield_14607": null,
+    "customfield_15938": null,
+    "customfield_15939": null,
+    "summary": "CORE UI - Upgraded angular 17 code - Stage Fixes",
+    "customfield_10480": null,
+    "customfield_10481": null,
+    "customfield_10482": null,
+    "customfield_10483": null,
+    "customfield_12420": null,
+    "customfield_10241": null,
+    "customfield_10242": null,
+    "customfield_10484": null,
+    "customfield_10000": null,
+    "customfield_14601": null,
+    "customfield_12422": null,
+    "customfield_10243": null,
+    "customfield_15932": null,
+    "customfield_14602": null,
+    "customfield_12421": null,
+    "customfield_10486": null,
+    "customfield_10244": null,
+    "customfield_15933": null,
+    "customfield_10487": null,
+    "customfield_12424": null,
+    "customfield_15930": null,
+    "customfield_10488": null,
+    "customfield_12423": null,
+    "customfield_14600": null,
+    "customfield_15931": null,
+    "customfield_10004": null,
+    "customfield_10478": null,
+    "customfield_12415": null,
+    "customfield_15925": null,
+    "customfield_10479": null,
+    "customfield_12414": null,
+    "customfield_15926": null,
+    "customfield_12417": null,
+    "customfield_15923": null,
+    "customfield_12416": null,
+    "customfield_15924": null,
+    "customfield_12419": null,
+    "customfield_15929": null,
+    "customfield_12418": null,
+    "customfield_15927": null,
+    "customfield_15928": null,
+    "comment": {
+      "comments": [
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3448605",
+          "id": "3448605",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Process Gatekeeping tool (Verify) completed successfully - https://s3.amazonaws.com/nextgen-process-automation/log-aa36c4f1-b1e1-5185-356b-cd1b192969a7",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-18T06:38:56.324-0400",
+          "updated": "2024-07-18T06:38:56.324-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3448537",
+          "id": "3448537",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Deployment done successfully on QA environment at 18/Jul/24 11:03 AM UTC  (18/Jul/24 4:33 PM IST)",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-18T07:03:19.364-0400",
+          "updated": "2024-07-18T07:03:19.364-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3448538",
+          "id": "3448538",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Process Gatekeeping tool (Update) completed successfully - https://s3.amazonaws.com/nextgen-process-automation/log-f0181c6d-1484-5389-56d9-729d8e4e3774",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-18T07:03:19.646-0400",
+          "updated": "2024-07-18T07:03:19.646-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3449019",
+          "id": "3449019",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "functional - test executed for desktop on qa environment",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-18T08:07:50.346-0400",
+          "updated": "2024-07-18T08:07:50.346-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3449940",
+          "id": "3449940",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Process Gatekeeping tool (Verify) completed successfully - https://s3.amazonaws.com/nextgen-process-automation/log-5d68b22b-bc96-7620-9896-c3feb530fd65",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-19T00:18:51.552-0400",
+          "updated": "2024-07-19T00:18:51.552-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3449950",
+          "id": "3449950",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Deployment done successfully on QA environment at 19/Jul/24 4:22 AM UTC  (19/Jul/24 9:52 AM IST)",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-19T00:22:55.879-0400",
+          "updated": "2024-07-19T00:22:55.879-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3449951",
+          "id": "3449951",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Process Gatekeeping tool (Update) completed successfully - https://s3.amazonaws.com/nextgen-process-automation/log-d872acd0-cc74-3872-4310-e2fd5490dd2b",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-19T00:22:56.100-0400",
+          "updated": "2024-07-19T00:22:56.100-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3451286",
+          "id": "3451286",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "functional - test executed for mobile on qa environment",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-19T09:25:24.434-0400",
+          "updated": "2024-07-19T09:25:24.434-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3451449",
+          "id": "3451449",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "functional - test executed for desktop on qa environment",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-19T12:24:34.752-0400",
+          "updated": "2024-07-19T12:24:34.752-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3452872",
+          "id": "3452872",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Process Gatekeeping tool (Verify) completed successfully - https://s3.amazonaws.com/nextgen-process-automation/log-fe43cbe8-2ed5-e370-2d04-741179d1ddc4",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-22T02:09:04.979-0400",
+          "updated": "2024-07-22T02:09:04.979-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3452498",
+          "id": "3452498",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Deployment done successfully on QA environment at 22/Jul/24 6:29 AM UTC  (22/Jul/24 11:59 AM IST)",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-22T02:29:51.011-0400",
+          "updated": "2024-07-22T02:29:51.011-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3452499",
+          "id": "3452499",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Process Gatekeeping tool (Update) completed successfully - https://s3.amazonaws.com/nextgen-process-automation/log-d7617180-49dd-1a9b-c2f4-554fe3f0e18c",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-22T02:29:51.277-0400",
+          "updated": "2024-07-22T02:29:51.277-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3455661",
+          "id": "3455661",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Process Gatekeeping tool (Verify) completed successfully - https://s3.amazonaws.com/nextgen-process-automation/log-8e3f90bd-d749-a6b9-5d35-dc78ba6b08bf",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-22T13:27:27.815-0400",
+          "updated": "2024-07-22T13:27:27.815-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3455680",
+          "id": "3455680",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Deployment done successfully on QA environment at 22/Jul/24 5:48 PM UTC  (22/Jul/24 11:18 PM IST)",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-22T13:48:49.786-0400",
+          "updated": "2024-07-22T13:48:49.786-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3455681",
+          "id": "3455681",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Process Gatekeeping tool (Update) completed successfully - https://s3.amazonaws.com/nextgen-process-automation/log-1c5f4c46-8ebc-2354-3311-c304116add01",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-22T13:48:50.159-0400",
+          "updated": "2024-07-22T13:48:50.159-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3456452",
+          "id": "3456452",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "functional - test executed for mobile on qa environment",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-23T01:25:44.638-0400",
+          "updated": "2024-07-23T01:25:44.638-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3457313",
+          "id": "3457313",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Process Gatekeeping tool (Verify) completed successfully - https://s3.amazonaws.com/nextgen-process-automation/log-0a4ac09d-00c2-4f22-e016-766871aa8a64",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-23T03:06:07.374-0400",
+          "updated": "2024-07-23T03:06:07.374-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3457291",
+          "id": "3457291",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Deployment done successfully on QA environment at 23/Jul/24 7:17 AM UTC  (23/Jul/24 12:47 PM IST)",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-23T03:17:55.991-0400",
+          "updated": "2024-07-23T03:17:55.991-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3457292",
+          "id": "3457292",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Process Gatekeeping tool (Update) completed successfully - https://s3.amazonaws.com/nextgen-process-automation/log-91b02909-c0b2-75a3-60ed-d747fa39f4ea",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-23T03:17:56.362-0400",
+          "updated": "2024-07-23T03:17:56.362-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3460590",
+          "id": "3460590",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "accessibility - test executed for mobile on qa environment",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-24T02:36:51.622-0400",
+          "updated": "2024-07-24T02:36:51.622-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3460748",
+          "id": "3460748",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "accessibility - test executed for desktop on qa environment",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-24T02:52:39.639-0400",
+          "updated": "2024-07-24T02:52:39.639-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3460818",
+          "id": "3460818",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "accessibility - test executed for desktop on qa environment",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-24T03:03:26.388-0400",
+          "updated": "2024-07-24T03:03:26.388-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3460635",
+          "id": "3460635",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Process Gatekeeping tool (Verify) completed with failure - https://s3.amazonaws.com/nextgen-process-automation/log-f313023d-311b-5c74-f69b-ea3f59380d4a",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-24T03:07:27.178-0400",
+          "updated": "2024-07-24T03:07:27.178-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3460839",
+          "id": "3460839",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "accessibility - test executed for desktop on qa environment",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-24T03:10:28.900-0400",
+          "updated": "2024-07-24T03:10:28.900-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3460854",
+          "id": "3460854",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Process Gatekeeping tool (Verify) completed successfully - https://s3.amazonaws.com/nextgen-process-automation/log-8a5f4bee-d0a4-a9c5-5082-f1b0a4fd195c",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-24T03:30:09.172-0400",
+          "updated": "2024-07-24T03:30:09.172-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3460863",
+          "id": "3460863",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Deployment done successfully on Stage environment at 24/Jul/24 7:36 AM UTC  (24/Jul/24 1:06 PM IST)",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-24T03:36:16.581-0400",
+          "updated": "2024-07-24T03:36:16.581-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3460864",
+          "id": "3460864",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Process Gatekeeping tool (Update) completed successfully - https://s3.amazonaws.com/nextgen-process-automation/log-8732c36e-493e-2107-6ce5-251db0eb8365",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-24T03:36:16.793-0400",
+          "updated": "2024-07-24T03:36:16.793-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3460880",
+          "id": "3460880",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "accessibility - test executed for mobile on stage environment",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-24T03:49:13.537-0400",
+          "updated": "2024-07-24T03:49:13.537-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3460885",
+          "id": "3460885",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "functional - test executed for mobile on stage environment",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-24T03:56:03.582-0400",
+          "updated": "2024-07-24T03:56:03.582-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3460886",
+          "id": "3460886",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "accessibility - test executed for mobile on stage environment",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-24T03:56:58.211-0400",
+          "updated": "2024-07-24T03:56:58.211-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3460890",
+          "id": "3460890",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "accessibility - test executed for desktop on stage environment",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-24T03:59:25.180-0400",
+          "updated": "2024-07-24T03:59:25.180-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3460891",
+          "id": "3460891",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "functional - test executed for desktop on stage environment",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-24T03:59:42.500-0400",
+          "updated": "2024-07-24T03:59:42.500-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3461049",
+          "id": "3461049",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "accessibility - test executed for desktop on stage environment",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-24T04:53:07.467-0400",
+          "updated": "2024-07-24T04:53:07.467-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3462681",
+          "id": "3462681",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=O773286",
+            "name": "O773286",
+            "key": "JIRAUSER28121",
+            "emailAddress": "Amit.Kumar@tavisca.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/75eb9f7d3c4e5bbe6e4a7aebc8942e31?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/75eb9f7d3c4e5bbe6e4a7aebc8942e31?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/75eb9f7d3c4e5bbe6e4a7aebc8942e31?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/75eb9f7d3c4e5bbe6e4a7aebc8942e31?d=mm&s=32"
+            },
+            "displayName": "Amit Kumar",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "*MY TRIPS Functional Reports on QA:* 100%\r\n\r\n[https://artifacts-sdlc.common.cnxloyalty.com/orxe/core/pipelines/10386/artifacts/functional-report/desktop-my-trips-site/index.html]\r\n\r\n[https://artifacts-sdlc.common.cnxloyalty.com/orxe/core/pipelines/10353/artifacts/functional-report/mobile-my-trips-site/index.html#]\r\n\r\n \r\n\r\n*MY TRIPS Functional Reports on Stage :*\r\n\r\n \r\n\r\nDesktop My Trips Site - [https://artifacts-sdlc.common.cnxloyalty.com/orxe/core/pipelines/10447/artifacts/functional-report/desktop-my-trips-site/index.html#] -- 98.29%\r\n\r\n \r\n\r\nMobile My Trips Site - [https://artifacts-sdlc.common.cnxloyalty.com/orxe/core/pipelines/10496/artifacts/functional-report/mobile-my-trips-site/index.html#]  -- 94.68%\r\n\r\n \r\n\r\nshould be able to verify secondary header menu tab text -- timeout issue \r\n\r\nVerify skip to main content button exist - timeout issue\r\n\r\n \r\n\r\nShould verify the click on schedule changes popup navigates to trip details page for multiple flights.\r\nShould verify the schedule change popup view change click for single flight.\r\n\r\nBoth these test cases , due to data mismatch  data with schedule change flight is not there\r\n\r\n \r\n\r\nManually verified these test cases working as expected",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=O773286",
+            "name": "O773286",
+            "key": "JIRAUSER28121",
+            "emailAddress": "Amit.Kumar@tavisca.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/75eb9f7d3c4e5bbe6e4a7aebc8942e31?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/75eb9f7d3c4e5bbe6e4a7aebc8942e31?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/75eb9f7d3c4e5bbe6e4a7aebc8942e31?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/75eb9f7d3c4e5bbe6e4a7aebc8942e31?d=mm&s=32"
+            },
+            "displayName": "Amit Kumar",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-25T00:10:01.720-0400",
+          "updated": "2024-07-25T00:10:01.720-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3464009",
+          "id": "3464009",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Deployment done successfully on Prod environment at 25/Jul/24 9:38 AM UTC  (25/Jul/24 3:08 PM IST)",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-25T05:38:29.167-0400",
+          "updated": "2024-07-25T05:38:29.167-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3464010",
+          "id": "3464010",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Process Gatekeeping tool (Update) completed successfully - https://s3.amazonaws.com/nextgen-process-automation/log-85897a20-d38b-61eb-c2bf-2585f1b26f2f",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-25T05:38:29.290-0400",
+          "updated": "2024-07-25T05:38:29.290-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3465486",
+          "id": "3465486",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "accessibility - test executed for mobile on prod environment",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-26T00:36:10.134-0400",
+          "updated": "2024-07-26T00:36:10.134-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3465498",
+          "id": "3465498",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "functional - test executed for mobile on prod environment",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-26T00:46:09.873-0400",
+          "updated": "2024-07-26T00:46:09.873-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3465504",
+          "id": "3465504",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "functional - test executed for desktop on prod environment",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-26T00:49:06.282-0400",
+          "updated": "2024-07-26T00:49:06.282-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3465510",
+          "id": "3465510",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "accessibility - test executed for desktop on prod environment",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-26T00:50:48.379-0400",
+          "updated": "2024-07-26T00:50:48.379-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3465553",
+          "id": "3465553",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "functional - test executed for desktop on prod environment",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-26T01:11:06.523-0400",
+          "updated": "2024-07-26T01:11:06.523-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3466090",
+          "id": "3466090",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Deployment done successfully on Prod environment at 26/Jul/24 7:26 AM UTC  (26/Jul/24 12:56 PM IST)",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-26T03:26:41.659-0400",
+          "updated": "2024-07-26T03:26:41.659-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3466091",
+          "id": "3466091",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "Process Gatekeeping tool (Update) completed successfully - https://s3.amazonaws.com/nextgen-process-automation/log-b5f1e6dc-362d-f8e5-d39c-6b532534977c",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=svc_Jarvis",
+            "name": "svc_Jarvis",
+            "key": "JIRAUSER23617",
+            "emailAddress": "jira@cxloyalty.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/f75d214010c112e4c3cb012706d9bf56?d=mm&s=32"
+            },
+            "displayName": "Jarvis",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-26T03:26:41.776-0400",
+          "updated": "2024-07-26T03:26:41.776-0400"
+        },
+        {
+          "self": "https://jira.cxloyalty.com/rest/api/2/issue/1698494/comment/3472532",
+          "id": "3472532",
+          "author": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "body": "functional - test executed for mobile on prod environment",
+          "updateAuthor": {
+            "self": "https://jira.cxloyalty.com/rest/api/2/user?username=SVC_SiteManager",
+            "name": "SVC_SiteManager",
+            "key": "JIRAUSER32208",
+            "emailAddress": "SVC_SiteManager@noemail.com",
+            "avatarUrls": {
+              "48x48": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=48",
+              "24x24": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=24",
+              "16x16": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=16",
+              "32x32": "https://www.gravatar.com/avatar/7c8ce5b3b3b918494d72224710946be0?d=mm&s=32"
+            },
+            "displayName": "SVC_SiteManager",
+            "active": true,
+            "timeZone": "America/New_York"
+          },
+          "created": "2024-07-30T03:43:10.414-0400",
+          "updated": "2024-07-30T03:43:10.414-0400"
+        }
+      ],
+      "maxResults": 44,
+      "total": 44,
+      "startAt": 0
+    },
+    "customfield_15121": null,
+    "customfield_17300": null,
+    "customfield_15122": null,
+    "customfield_15120": null,
+    "customfield_15125": null,
+    "customfield_15126": null,
+    "customfield_15123": null,
+    "customfield_15124": null,
+    "customfield_15129": null,
+    "customfield_15127": null,
+    "customfield_15128": null,
+    "customfield_10900": null,
+    "customfield_10901": null,
+    "customfield_10903": null,
+    "customfield_10904": null,
+    "customfield_10905": null,
+    "customfield_10906": null,
+    "customfield_10907": null,
+    "customfield_10908": null,
+    "customfield_15110": null,
+    "customfield_16200": null,
+    "customfield_15111": null,
+    "customfield_15114": null,
+    "customfield_16204": null,
+    "customfield_15115": null,
+    "customfield_16203": null,
+    "customfield_15112": null,
+    "customfield_16202": null,
+    "customfield_15113": null,
+    "customfield_16201": null,
+    "customfield_15118": null,
+    "customfield_15119": null,
+    "customfield_15116": null,
+    "customfield_15117": null,
+    "customfield_15109": null,
+    "versions": [],
+    "customfield_15100": null,
+    "customfield_15103": null,
+    "customfield_15101": null,
+    "customfield_15102": null,
+    "customfield_15107": null,
+    "customfield_15108": null,
+    "customfield_18611": null,
+    "customfield_15105": null,
+    "customfield_15106": null,
+    "customfield_18613": null,
+    "customfield_14000": null,
+    "customfield_14003": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/53106",
+      "value": "2019",
+      "id": "53106",
+      "disabled": false
+    },
+    "customfield_14004": "2019-01-01",
+    "customfield_14001": null,
+    "customfield_14002": null,
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_18600": null,
+    "customfield_14005": "2023-01-27",
+    "customfield_14006": null,
+    "customfield_12291": null,
+    "customfield_12290": null,
+    "customfield_12293": null,
+    "customfield_12295": null,
+    "customfield_12294": null,
+    "customfield_12297": null,
+    "customfield_12296": null,
+    "customfield_12299": null,
+    "customfield_17500": "Chetan Pimparkar",
+    "customfield_12298": null,
+    "customfield_12280": null,
+    "customfield_12282": null,
+    "customfield_12281": null,
+    "customfield_12284": null,
+    "customfield_12283": null,
+    "customfield_12286": null,
+    "customfield_16402": null,
+    "customfield_12285": null,
+    "customfield_16401": null,
+    "customfield_12288": {
+      "self": "https://jira.cxloyalty.com/rest/api/2/customFieldOption/50641",
+      "value": "Requirements Gathering",
+      "id": "50641",
+      "disabled": false
+    },
+    "customfield_16400": null,
+    "customfield_12287": null,
+    "customfield_12289": null,
+    "customfield_16403": null,
+    "customfield_12271": null,
+    "customfield_12270": null,
+    "customfield_12273": null,
+    "customfield_12272": null,
+    "customfield_12275": null,
+    "customfield_15301": null,
+    "customfield_19901": null,
+    "customfield_12274": null,
+    "customfield_15302": null,
+    "customfield_19902": null,
+    "customfield_12277": null,
+    "customfield_19903": null,
+    "customfield_12276": null,
+    "customfield_15300": null,
+    "customfield_19904": null,
+    "customfield_12279": null,
+    "customfield_15305": null,
+    "customfield_12278": null,
+    "customfield_15306": null,
+    "customfield_15303": null,
+    "customfield_15304": null,
+    "customfield_12260": null,
+    "customfield_12262": null,
+    "customfield_12261": null,
+    "customfield_14201": null,
+    "customfield_12264": null,
+    "customfield_14202": null,
+    "customfield_12263": null,
+    "customfield_12266": null,
+    "customfield_12265": null,
+    "customfield_14200": null,
+    "customfield_12268": null,
+    "customfield_12267": null,
+    "customfield_14203": null,
+    "customfield_12269": null,
+    "customfield_12018": null,
+    "customfield_16618": null,
+    "customfield_16617": null,
+    "customfield_16616": null
+  }
+}

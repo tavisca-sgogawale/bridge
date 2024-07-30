@@ -6,7 +6,7 @@ namespace Bridge.Services
 
     public class JiraServices: IJiraService
     {
-        public async Task<IssueDetail> GetIssueDetailAsync(string issueId)
+        public async Task<IssueDetail> GetIssueDetailAsync(string issueKey)
         {
 
             //TODO: Get mock data for jira tickets
